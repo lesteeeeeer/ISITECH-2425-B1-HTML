@@ -37,6 +37,7 @@ p {
 .container {
     display: flex;
     justify-content: center;
+    
 }
 
 h1 {
@@ -55,14 +56,18 @@ t1  {
 }
 
 
+
 .box {
     align-items: center;
     background-color: aquamarine;
-    width: 200px;
-    height: 200px;
+    width: 2000px;
+    height: 1000px;
     left: 200px;
+    font-size: 300%;
+    margin-top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-
+    
 }
 
 body {
@@ -72,4 +77,41 @@ body {
 
 }
 
+
+h2{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    display: flex;
+}
+
+h3  {
+display: flex;
+justify-content: center;
+}
+
+h4  {
+display: flex;
+justify-content: center;
+font-size: 120%;
+}
+
+
+
+.bouton_instagram {
+    display: inline-block;
+    width: 100px; /* Largeur de l'image */
+    height: 100px; /* Hauteur de l'image */
+    left: 20%;
+    overflow: hidden;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton_instagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*Assure un bon ajustement de l'image */
+    /* border-radius: 50%; Ajoute des bords arrondis si souhaité */
+}
 
