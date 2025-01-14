@@ -115,3 +115,14 @@ font-size: 120%;
     /* border-radius: 50%; Ajoute des bords arrondis si souhaité */
 }
 
+.box2 {
+    align-items: center;
+    background-color:blueviolet;
+    width: 2000px;
+    height: 1000px;
+    left: 200px;
+    font-size: 300%;
+    margin-top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
