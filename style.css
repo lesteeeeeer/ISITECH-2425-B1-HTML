@@ -54,11 +54,22 @@ t1  {
     
 }
 
-tparcours {
 
-    margin-top: 100px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;
+.box {
+    align-items: center;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
