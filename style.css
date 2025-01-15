@@ -6,8 +6,13 @@ nav ul{
     list-style: none;
     font: small-caps bold 24px/1 sans-serif;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
     
 }
+a {
+    text-decoration: none;
+}
+
 
 ul{
     position: relative;
