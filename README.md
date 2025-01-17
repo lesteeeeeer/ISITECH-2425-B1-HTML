@@ -15,3 +15,5 @@ changement de fichier html pour covenir à la consigne
 Passage de "coordonnées" à "à propos"
 
 modification de la forme et des couleurs de la pgae web et ajout de contenu
+
+ajout de contenu modification du fichier mon parcours
