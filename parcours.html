@@ -1,85 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
-        <title>Mon Parcours</title>
-    </head>
-    <body>
-        <header class="barre">
-            <h1>Lester <br /> Andriamboavonjy</h1>
-            <nav>
-                <ul>
-                    <li><a href="Acceuil.html">Accueil</a></li>
-                    <li><a href="parcours.html">Mon parcours</a></li>
-                    <li><a href="projet.html">Mon projet</a></li>
-                    <li><a href="propos.html">A propos</a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Parcours</title>
+</head>
+<body>
+    <header class="barre">
+        <h1>Lester <br /> Andriamboavonjy</h1>
+        <nav>
+            <ul>
+                <li><a href="Acceuil.html">Accueil</a></li>
+                <li><a href="parcours.html">Mon parcours</a></li>
+                <li><a href="projet.html">Mon projet</a></li>
+                <li><a href="propos.html">A propos</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <main class="main-content">
-            <div class="container">
-                <h1>Mon Parcours</h1>
+    <main class="main-content">
+        <div class="container">
+            <h1>Mon Parcours</h1>
+        </div>
+
+        <section class="school">
+            <div class="school-info">
+                <h2>Formation</h2>
+                <p>J'ai obtenu mon baccalauréat technologique en 2022, au lycée René Descartes à Saint-Genis-Laval, où j'ai acquis une solide base en sciences et technologies industrielles.</p>
+                <p>Ensuite, j'ai entamé une année de BTS CIRA (Contrôle Industriel et Régulation Automatique) à l'école René Descartes, mais ce parcours ne m'a pas convaincu, j'ai donc choisi de réorienter mes études.</p>
+                <p>J'ai alors rejoint l'entreprise STEF à Brignais, où j'ai effectué un an et demi dans la préparation de commandes. Cette expérience m'a permis de développer des compétences professionnelles et de mieux comprendre le monde du travail.</p>
+                <p>Enfin, en octobre 2024, j'ai intégré l'école Isitech ainsi que l'entreprise Xbline pour commencer ma formation en alternance. Actuellement, je combine théorie et pratique, tout en me formant au développement informatique et aux réseaux.</p>
+            </div>
+        </section>
+
+        <section class="lycee">
+            <!-- Titre cliquable -->
+            <a href="URL_DU_SITE_DE_L_ECOLE" class="titre-lycee">
+                <h3>Lycée René Descartes</h3>
+            </a>
+
+            <p>J'ai obtenu mon baccalauréat technologique en 2022, où j'ai acquis une solide base en sciences et technologies industrielles.</p>
+            <p>Durant mon passage, j'ai étudié des matières telles que les mathématiques, la physique, et les technologies industrielles. J'ai également participé à divers projets, dont un sur la robotique.</p>
+
+            <!-- Conteneur flex pour l'image, la carte et le texte -->
+            <div class="content-flex">
+                <!-- Image à gauche -->
+                <div class="image-container">
+                    <img src="https://cdn-s-www.leprogres.fr/images/5435519A-58CF-448A-AB17-A743389B076B/NW_raw/le-lycee-descartes-de-saint-genis-laval-se-classe-quatrieme-du-palmares-du-rhone-2013-photo-archives-daniel-arisi-1507673803.jpg" alt="Lycée René Descartes" class="image-parcours">
+                </div>
+
+                <!-- Carte à droite -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11147.858283827509!2d4.766213587158201!3d45.69168300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e927d87ae7f3%3A0x3c0074e1631b2fb7!2sLyc%C3%A9e%20Ren%C3%A9%20Descartes!5e0!3m2!1sfr!2sfr!4v1737365954409!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
-            <section class="school">
-                <div class="school-info">
-                    <h2>Formation</h2>
-                    <p>J'ai obtenu mon baccalauréat technologique en 2022, au lycée René Descartes à Saint-Genis-Laval, où j'ai acquis une solide base en sciences et technologies industrielles.</p>
-
-                    <p>Ensuite, j'ai entamé une année de BTS CIRA (Contrôle Industriel et Régulation Automatique) à l'école René Descartes, mais ce parcours ne m'a pas convaincu, j'ai donc choisi de réorienter mes études.</p>
-
-                    <p>J'ai alors rejoint l'entreprise STEF à Brignais, où j'ai effectué un an et demi dans la préparation de commandes. Cette expérience m'a permis de développer des compétences professionnelles et de mieux comprendre le monde du travail.</p>
-
-                    <p>Enfin, en octobre 2024, j'ai intégré l'école Isitech ainsi que l'entreprise Xbline pour commencer ma formation en alternance. Actuellement, je combine théorie et pratique, tout en me formant au développement informatique et aux réseaux.</p>
-                </div>
-            </section>
-
-            <section class="experience">
-                <h2>Expériences Professionnelles</h2>
-                <ul>
-                    <li><strong>Préparation de commandes - STEF à Brignais</strong> (2023 - 2024)</li>
-                    <li><strong>Alternant technicien système et réseau - Xbline</strong> (2024 - présent)</li>
-                </ul>
-            </section>
-
-            <section class="lycee">
-                <!-- Le titre h3 cliquable -->
-                <a href="URL_DU_SITE_DE_L_ECOLE" class="titre-lycee">
-                    <h3>Lycée René Descartes</h3>
-                </a>
-                
-                <p>J'ai obtenu mon baccalauréat technologique en 2022, où j'ai acquis une solide base en sciences et technologies industrielles.</p>
-                
-                <p>Durant mon passage, j'ai étudié des matières telles que les mathématiques, la physique, et les technologies industrielles. J'ai également participé à divers projets, dont un sur la robotique.</p>
-                
-                <!-- Conteneur flex pour aligner l'image et la carte -->
-                <div class="content-flex">
-                    <!-- Image -->
-                    <div class="image-container">
-                        <img src="https://cdn-s-www.leprogres.fr/images/5435519A-58CF-448A-AB17-A743389B076B/NW_raw/le-lycee-descartes-de-saint-genis-laval-se-classe-quatrieme-du-palmares-du-rhone-2013-photo-archives-daniel-arisi-1507673803.jpg" alt="Lycée René Descartes" class="image-parcours">
-                    </div>
-            
-                    <!-- Carte -->
-                    <div class="map-container">
-                        <div class="google-map">
-                            <div class="map-container">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11147.858283827509!2d4.766213587158201!3d45.69168300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e927d87ae7f3%3A0x3c0074e1631b2fb7!2sLyc%C3%A9e%20Ren%C3%A9%20Descartes!5e0!3m2!1sfr!2sfr!4v1737365954409!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                                        <!-- Texte sous la carte -->
-
-                <p class="map-text">BLABLABLA ici je parle de ma vie au lycée</p>
-
-            </section>
-            
-            
-
-        </main>
-    </body>
+            <!-- Texte sous la carte -->
+            <p class="map-text">BLABLABLA ici je parle de ma vie au lycée</p>
+        </section>
+    </main>
+</body>
 </html>
