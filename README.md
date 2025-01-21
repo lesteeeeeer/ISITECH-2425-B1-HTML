@@ -17,3 +17,6 @@ Passage de "coordonnées" à "à propos"
 modification de la forme et des couleurs de la pgae web et ajout de contenu
 
 ajout de contenu modification du fichier mon parcours
+
+
+ajout d'une carte interactive google maps sur la page mon parcours
