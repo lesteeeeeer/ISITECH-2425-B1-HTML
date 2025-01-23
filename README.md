@@ -20,3 +20,5 @@ ajout de contenu modification du fichier mon parcours
 
 
 ajout d'une carte interactive google maps sur la page mon parcours
+
+ajout d'une div pour la stef parcours
